@@ -1,6 +1,6 @@
 # FreeRTOS-Process-Model
 
-This repositry holds code for a Processes Framework for FreeRTOS. This framework has been tested on the Texas Instrument's Tiva C Series TM4C123G Launchpad Evaluation Kit. The source can run on other Cortex-M4 and Cortex-M4F based targets too. However, the Demo folder only contains code for the TM4C123G Kit.
+This repositry holds code for a Processes Framework for FreeRTOS. This framework has been tested on the Texas Instrument's Tiva C Series TM4C123G Launchpad Evaluation Kit. The source can run on other Cortex-M4 and Cortex-M4F based targets too. However, the Demo folder inside this folder only contains code for the TM4C123G Kit.
 
 1. The FreeRTOS folder contains the modified FreeRTOS source code with the Processes Framework. The Demo folder contains a demo for Texas Instrument's Tiva C Series TM4C123G Launchpad Evaluation Kit and a file process.proc.h which contains the ELF image of a sample process to load. Copy this complete FreeRTOS folder into an Eclipse C Project and build it.
 
